@@ -76,10 +76,18 @@ function UsersDashboard() {
   };
     
   return (
-    <div className='text-center bg-gray-100 '>
-        <h1 className=' m-auto text-2xl  border-b-2 py-5 border-green-500'>ADMIN DASHBOARD</h1>
+    <div className=' bg-gray-100 '>
+        <h1 className='  text-2xl mx-20  border-b-2 py-5 border-green-500'> DASHBOARD</h1>
         <div>
-          <button className='bg-green-500 text-white p-3 text-xl rounded-full m-3' onClick={handlemapview}>MAP VIEW</button>
+          <div className='flex  p-6'>
+            <h1 className='text-green-600 text-xl ml-20 w-[50%]'>
+              Area : 
+            </h1>
+            <h1 className='text-green-600 text-xl m-auto w-[50%]'>
+              Pincode : 
+            </h1>
+          </div>
+          <button className='bg-green-500  hover:text-white p-3 text-xl rounded-full m-3 transform origin-center transition-transform duration-400  hover:scale-[102%]' onClick={handlemapview}>MAP VIEW</button>
         </div>
         {showMap && (
         <div className="modal">
@@ -89,19 +97,7 @@ function UsersDashboard() {
           </div>
         </div>
       )}
-        <div className='flex m-8 text-xl'>
-          <div className='w-3/5'>
-            <h1 className='m-4'>NAME : <a className='text-green-500'>Ashray</a></h1>
-            <h1 className='m-4'>Number of vehicles : <a className='text-green-500'>5</a></h1>
-          </div>
-          <div className=' w-3/5'>
-            <h1 className='m-4'>Pincode : <a className='text-green-500'>500090</a></h1>
-            <h1 className='m-4'>Area : <a className='text-green-500'>Malkajigiri</a></h1>
-          </div>
-        </div>
-        <div>
-          <h1 className='text-2xl'>VEHICLES DETAILS</h1>
-        </div>
+       
         {
           centers.map((center,index)=>(
             <Adminchild center={center} driver={children[index]} onDelete={handleDeleteChild} key={index}/>

@@ -1,0 +1,137 @@
+[
+    {
+      "VehicleNumber": "KA-01-CD-7890",
+      "VehicleImg": "https://th.bing.com/th/id/OIP.opQMJL7gZpzDZDMbHSWyFQAAAA?rs=1&pid=ImgDetMain",
+      "Status": "In Transit",
+      "Storage": [
+        {"Compartment": "C1", "Percentage": 30},
+        {"Compartment": "C2", "Percentage": 50},
+        {"Compartment": "C3", "Percentage": 70},
+        {"Compartment": "C4", "Percentage": 20}
+      ],
+      "Compartments": ["C1", "C2", "C3", "C4"],
+      "DriverName": "Michael Brown",
+      "Lat": 28.616,
+      "Lng": 77.2088
+    },
+    {
+      "VehicleNumber": "MH-02-AB-1234",
+      "VehicleImg": "https://th.bing.com/th/id/OIP.opQMJL7gZpzDZDMbHSWyFQAAAA?rs=1&pid=ImgDetMain",
+      "Status": "In Transit",
+      "Storage": [
+        {"Compartment": "C1", "Percentage": 40},
+        {"Compartment": "C2", "Percentage": 60},
+        {"Compartment": "C3", "Percentage": 80},
+        {"Compartment": "C4", "Percentage": 10}
+      ],
+      "Compartments": ["C1", "C2", "C3", "C4"],
+      "DriverName": "Emily Johnson",
+      "Lat": 19.076,
+      "Lng": 72.8777
+    },
+    {
+      "VehicleNumber": "DL-03-EF-5678",
+      "VehicleImg": "https://th.bing.com/th/id/OIP.opQMJL7gZpzDZDMbHSWyFQAAAA?rs=1&pid=ImgDetMain",
+      "Status": "Parked",
+      "Storage": [
+        {"Compartment": "C1", "Percentage": 25},
+        {"Compartment": "C2", "Percentage": 45},
+        {"Compartment": "C3", "Percentage": 65},
+        {"Compartment": "C4", "Percentage": 30}
+      ],
+      "Compartments": ["C1", "C2", "C3", "C4"],
+      "DriverName": "David Smith",
+      "Lat": 28.7041,
+      "Lng": 77.1025
+    },
+    {
+      "VehicleNumber": "UP-04-GH-9012",
+      "VehicleImg": "https://th.bing.com/th/id/OIP.opQMJL7gZpzDZDMbHSWyFQAAAA?rs=1&pid=ImgDetMain",
+      "Status": "In Transit",
+      "Storage": [
+        {"Compartment": "C1", "Percentage": 35},
+        {"Compartment": "C2", "Percentage": 55},
+        {"Compartment": "C3", "Percentage": 75},
+        {"Compartment": "C4", "Percentage": 15}
+      ],
+      "Compartments": ["C1", "C2", "C3", "C4"],
+      "DriverName": "Sarah Wilson",
+      "Lat": 25.4358,
+      "Lng": 81.8463
+    },
+    {
+      "VehicleNumber": "TN-05-IJ-3456",
+      "VehicleImg": "https://th.bing.com/th/id/OIP.opQMJL7gZpzDZDMbHSWyFQAAAA?rs=1&pid=ImgDetMain",
+      "Status": "In Transit",
+      "Storage": [
+        {"Compartment": "C1", "Percentage": 50},
+        {"Compartment": "C2", "Percentage": 70},
+        {"Compartment": "C3", "Percentage": 90},
+        {"Compartment": "C4", "Percentage": 5}
+      ],
+      "Compartments": ["C1", "C2", "C3", "C4"],
+      "DriverName": "James Taylor",
+      "Lat": 13.0827,
+      "Lng": 80.2707
+    },
+    {
+      "VehicleNumber": "KA-06-KL-7890",
+      "VehicleImg": "https://th.bing.com/th/id/OIP.opQMJL7gZpzDZDMbHSWyFQAAAA?rs=1&pid=ImgDetMain",
+      "Status": "Parked",
+      "Storage": [
+        {"Compartment": "C1", "Percentage": 20},
+        {"Compartment": "C2", "Percentage": 40},
+        {"Compartment": "C3", "Percentage": 60},
+        {"Compartment": "C4", "Percentage": 35}
+      ],
+      "Compartments": ["C1", "C2", "C3", "C4"],
+      "DriverName": "Olivia Brown",
+      "Lat": 12.9716,
+      "Lng": 77.5946
+    },
+    {
+      "VehicleNumber": "MH-07-MN-1234",
+      "VehicleImg": "https://th.bing.com/th/id/OIP.opQMJL7gZpzDZDMbHSWyFQAAAA?rs=1&pid=ImgDetMain",
+      "Status": "In Transit",
+      "Storage": [
+        {"Compartment": "C1", "Percentage": 45},
+        {"Compartment": "C2", "Percentage": 65},
+        {"Compartment": "C3", "Percentage": 85},
+        {"Compartment": "C4", "Percentage": 25}
+      ],
+      "Compartments": ["C1", "C2", "C3", "C4"],
+      "DriverName": "Noah Johnson",
+      "Lat": 18.5204,
+      "Lng": 73.8567
+    },
+    {
+      "VehicleNumber": "DL-08-OP-5678",
+      "VehicleImg": "https://th.bing.com/th/id/OIP.opQMJL7gZpzDZDMbHSWyFQAAAA?rs=1&pid=ImgDetMain",
+      "Status": "In Transit",
+      "Storage": [
+        {"Compartment": "C1", "Percentage": 55},
+        {"Compartment": "C2", "Percentage": 75},
+        {"Compartment": "C3", "Percentage": 95},
+        {"Compartment": "C4", "Percentage": 45}
+      ],
+      "Compartments": ["C1", "C2", "C3", "C4"],
+      "DriverName": "Emma Smith",
+      "Lat": 28.7041,
+      "Lng": 77.1025
+    },
+    {
+      "VehicleNumber": "UP-09-QR-9012",
+      "VehicleImg": "https://th.bing.com/th/id/OIP.opQMJL7gZpzDZDMbHSWyFQAAAA?rs=1&pid=ImgDetMain",
+      "Status": "Parked",
+      "Storage": [
+        {"Compartment": "C1", "Percentage": 30},
+        {"Compartment": "C2", "Percentage": 50},
+        {"Compartment": "C3", "Percentage": 70},
+        {"Compartment": "C4", "Percentage": 20}
+      ],
+      "Compartments": ["C1", "C2", "C3", "C4"],
+      "DriverName": "Daniel Wilson",
+      "Lat": 25.4358,
+      "Lng": 81.8463
+    }]
+  

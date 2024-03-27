@@ -24,7 +24,7 @@ const App = () => {
 
       },
       {
-        path:"/login",
+        path:"/gfyfyguinvuviuqend/login",
         element: <Login/>,
       },
       {

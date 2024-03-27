@@ -1,0 +1,63 @@
+[
+    {
+      "name": "John Doe",
+      "password": "password",
+      "Area": "Central Region",
+      "Pincode": "123456"
+    },
+    {
+      "name": "Jane Smith",
+      "password": "password",
+      "Area": "Eastern Region",
+      "Pincode": "789012"
+    },
+    {
+      "name": "Michael Brown",
+      "password": "password",
+      "Area": "Western Region",
+      "Pincode": "456789"
+    },
+    {
+      "name": "Alice Miller",
+      "password": "password",
+      "Area": "Northern Region",
+      "Pincode": "012345"
+    },
+    {
+      "name": "David Lee",
+      "password": "password",
+      "Area": "Southern Region",
+      "Pincode": "987654"
+    },
+    {
+      "name": "Emily Garcia",
+      "password": "password",
+      "Area": "Central Region",
+      "Pincode": "543210"
+    },
+    {
+      "name": "Robert Johnson",
+      "password": "password",
+      "Area": "Metro City",  
+      "Pincode": "321054"
+    },
+    {
+      "name": "Sarah Jones",
+      "password": "password",
+      "Area": "Another City",   
+      "Pincode": "852471"
+    },
+    {
+      "name": "William Davis",
+      "password": "password",
+      "Area": "Coastal Region",
+      "Pincode": "698532"
+    },
+    {
+      "name": "Maria Hernandez",
+      "password": "password",
+      "Area": "Western Region",
+      "Pincode": "789456"
+    }
+  ]
+  

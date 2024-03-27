@@ -7,8 +7,7 @@ function First() {
         <div>
             <Searchbar/>
         </div>
-        <NavLink to={'login'}className='text-centre w-full flex p-6 '><button className='bg-green-500  m-auto p-5 rounded-full font-3xl text-white'>LOGIN/SIGNUP</button></NavLink></div>
-    
+       </div> 
   )
 }
 
