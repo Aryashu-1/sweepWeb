@@ -1,0 +1,103 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow profiles to wrap on smaller screens */
+}
+
+.profile {
+    display: flex;
+    background-color: black;
+    margin-right: 30px;
+    margin-bottom: 30px; /* Add margin bottom to create space between profiles */
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 18rem;
+    /* border-radius: 16px; */
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.profile .profile-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: var(--background);
+    transition: .5s;
+}
+
+.profile-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.profile:hover img {
+    opacity: 1;
+    transition: .5s;
+}
+
+.profile:hover .profile-image {
+    transform: translateY(-400px);
+    transition: all .9s ease-in-out;
+}
+
+.profile:hover .profile-bio {
+    opacity: 0.9;
+}
+
+.profile-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    background: var(--background);
+    width: auto;
+    height: 130px;
+    padding: 16px;
+    z-index: 1;
+    color: #333;
+    font-size: x-small;
+    text-align: center;
+}
+
+.profile:hover .profile-name {
+    background-color: #fff;
+}
+
+.profile-name h2 {
+    margin-bottom: 8px;
+}
+
+/* Media Queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        margin-top: 50px; /* Adjust margin top for smaller screens */
+    }
+
+    .profile {
+        width: 100%; /* Make profiles take full width on smaller screens */
+        max-width: 350px; /* Limit maximum width */
+        height: auto; /* Allow height to adjust according to content */
+        margin-right: 0;
+        margin-bottom: 50px; /* Increase margin bottom for better spacing */
+    }
+
+    .profile-name {
+        height: auto; /* Allow height to adjust according to content */
+        font-size: smaller;
+    }
+}
