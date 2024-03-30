@@ -1,11 +1,22 @@
-# GET http://localhost:4000/admin-api/admins
+# # GET http://localhost:4000/admin-api/admins
 
-POST http://localhost:4000/admin-api/login 
+# POST http://localhost:4000/admin-api/login 
+# Content-Type: application/json
+
+# {
+ 
+#     "name": "John Doe",
+#     "password": "password"
+    
+# }
+
+
+POST http://localhost:4000/vehicles-api/vehicles 
 Content-Type: application/json
 
 {
  
-    "name": "John Doe",
-    "password": "password"
+    "name": "Sushanth"
+ 
     
 }

@@ -50,7 +50,7 @@
 }
 
 .profile:hover .profile-image {
-    transform: translateY(-400px);
+    transform: translateY(-290px);
     transition: all .9s ease-in-out;
 }
 

@@ -4,12 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginCheck from './Stores/LoginCheck';
+import Details from './Stores/Details';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <LoginCheck>
-    <App />
+      <Details>
+      <App />
+      </Details>
+   
     </LoginCheck>
     
   </React.StrictMode>

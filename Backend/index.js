@@ -2,11 +2,13 @@
 const exp = require('express');
 const app = exp();
 const path = require('path')
+const cors = require('cors');
 
 // //deploy react app
 // app.use(exp.static(path.join(__dirname,'../Client/blog/build')))
 
-
+// Enable CORS for all routes
+app.use(cors());
 require('dotenv').config() //process(gobal object)
 
 //mongo client

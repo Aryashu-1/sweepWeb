@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import "./Navbar.css";
 import { LoginCheckContext } from "../../Contexts/LoginCheckContext";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   let [loggedIn,setLoggedIn] = useContext(LoginCheckContext)
@@ -20,9 +21,10 @@ const Navbar = () => {
             <h1 className="text-center  text-4xl px-2 py-2">SWEEP</h1>
           </div></a>
         </div>
-       <div> 
-        <h1>Profile</h1>
-       </div>
+      <NavLink to="admin/profile">
+      <div> 
+        <img className="w-18 h-14 flex rounded-full object-fill" src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-and-shapes-3/177800/129-1024.png"></img>
+       </div></NavLink> 
       </nav>
     </div>
     )

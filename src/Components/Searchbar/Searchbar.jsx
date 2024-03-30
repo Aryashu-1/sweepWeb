@@ -2,7 +2,8 @@ import React from 'react'
 
 const Searchbar = () => {
   return (
-    <div className=' bg-gray-800 bg-[url("https://eco-nature.cmsmasters.net/wp-content/uploads/2014/07/bg.jpg")] w-auto h-fit m-2 text-center'>
+    <div className='h-screen'>
+      <div className=' bg-gray-800 bg-[url("https://eco-nature.cmsmasters.net/wp-content/uploads/2014/07/bg.jpg")] w-auto h-screen m-2 text-center'>
     <div className='h-96 p-3' >
       <h1 className='text-4xl text-white m-4'>SWEEP</h1>
       <p className='text-xl text-white m-2'>Welcome to Sweep, Your AI-Powered Waste Management Solution</p>
@@ -11,6 +12,9 @@ const Searchbar = () => {
 
     
     </div>
+
+    </div>
+    
   )
 }
 

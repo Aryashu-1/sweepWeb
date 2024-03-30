@@ -9,6 +9,7 @@ import Mapdemo from './Components/Mapdemo/Mapdemo'
 import Root_layout from './Components/Root_Layout/Root_layout'
 import Signup from './Components/Signup/Signup'
 import Detailsimg from './Components/Detailsimg/Detailsimg'
+import TestDashboard from './Components/testdash/TestDashboard'
 const App = () => {
   let router=createBrowserRouter([{
     path: '',
@@ -24,7 +25,7 @@ const App = () => {
 
       },
       {
-        path:"/gfyfyguinvuviuqend/login",
+        path:"/aryashu/login",
         element: <Login/>,
       },
       {
@@ -46,6 +47,10 @@ const App = () => {
       {
         path:'/component',
         element:<Detailsimg/>
+      },
+      {
+        path:'/admin/profile',
+        element:<TestDashboard/>
       }
     ]
   }

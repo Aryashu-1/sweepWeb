@@ -2,19 +2,33 @@ import React, { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { NavLink, useNavigate } from "react-router-dom";
 import { LoginCheckContext } from "../../Contexts/LoginCheckContext";
+import axios from 'axios';
+import { DetailsCOntext } from "../../Contexts/Details";
+
 function Login() {
   
   let [loggedIn,setLoggedIn]= useContext(LoginCheckContext)
+  let [admin,setAdmin] = useContext(DetailsCOntext)
   let {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
   let navigate = useNavigate();
-  function handleFormSubmit(User) {
-    console.log(User)
-    setLoggedIn(true);
+  async function handleFormSubmit(User) {
+
+    let res=  await axios.post('http://localhost:4000/admin-api/login',User)
+
+    if(res.data.message === "Login Succesfull"){
+      setLoggedIn(true);
+      setAdmin(res.data.user)
     navigate('/Admindashboard')
+    }
+    else{
+      alert(`${res.data.message}`)
+
+    }
+    
    
   }
   return (
@@ -35,10 +49,10 @@ function Login() {
           <input
             className=" w-full p-2 rounded-md border-2 border-black"
             type="text"
-            {...register("username", { required: true })}
+            {...register("name", { required: true })}
           ></input>
         </div>
-        {errors.username?.type === "required" && (
+        {errors.name?.type === "required" && (
           <h3 className=" text-red-700">*required</h3>
         )}
         <div className="py-3">
